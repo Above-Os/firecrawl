@@ -1,12 +1,6 @@
 name: Build firecrawl-api Image
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - apps/api/**
-      - .github/workflows/build-firecrawl-api.yml
   workflow_dispatch:
     inputs:
       tag:

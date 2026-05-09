@@ -1,12 +1,6 @@
 name: Build firecrawl-playwright-service Image
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - apps/playwright-service-ts/**
-      - .github/workflows/build-firecrawl-playwright-service.yml
   workflow_dispatch:
     inputs:
       tag:
